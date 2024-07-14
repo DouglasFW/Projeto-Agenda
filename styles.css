@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.bg-image {
+    background-image: url('/fundp.jpg.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra leve */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd; /* Cor do texto dos labels */
+}
+
+form input[type="text"],
+form input[type="datetime-local"],
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555; /* Cor da borda */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #333; /* Cor de fundo dos inputs */
+    color: #fff; /* Cor do texto dos inputs */
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #444; /* Cor de fundo dos itens da lista */
+    border-radius: 4px;
+}
+
+li span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+}
+
+.delete:hover {
+    background-color: #da190b;
+}

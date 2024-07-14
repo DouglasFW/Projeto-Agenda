@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Compromissos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-image">
+    <div class="container">
+        <h1>Agenda de Compromissos</h1>
+        <form id="form">
+            <label for="taskInput">Tarefa:</label>
+            <input type="text" id="taskInput" required>
+            <label for="dateTimeInput">Data e Hora:</label>
+            <input type="datetime-local" id="dateTimeInput" required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
