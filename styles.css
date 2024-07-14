@@ -8,7 +8,7 @@ body, html {
 }
 
 .bg-image {
-    background-image: url('/fundp.jpg.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-image: url('/asus.jpeg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
     background-size: cover;
     background-position: center;
     display: flex;
